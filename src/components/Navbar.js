@@ -29,7 +29,7 @@ function Navbar() {
 // bg-slate-900 items-center 
 // justify-end gap-x-10 p-8 
         <nav className="flex flex-row  mx-auto px-auto py-auto
-        bg-slate-900 items-center 
+        bg-slate-900 items-center nav-links
         justify-end border-b-2 border-slate-800  gap-x-8 p-8 ml-auto py-8 top-0 expanded">
             <img src={backImage} alt="tdd" className='w-9 h-9 rounded-full object-contain' />
             <div className="ml-0 mx-auto flex font-extrabold text-slate-400">

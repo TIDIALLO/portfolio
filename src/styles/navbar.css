@@ -52,9 +52,9 @@ background-color: #2642af;
     overflow: hidden;
     transition: var(--transition);
 }
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 550px) {
     .nav-links {
         height: auto;
-        display: flex ;
+        flex-direction: column;
     }
 }

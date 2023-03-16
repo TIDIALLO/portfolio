@@ -1,4 +1,3 @@
-import "./scss/App.scss"
 import Navbar from "./components/Navbar";
 import Route from "./components/Route";
 import Work from "./components/Work";
