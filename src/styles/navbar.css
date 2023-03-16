@@ -1,0 +1,60 @@
+:root{
+--transition: all 0.3s linear;
+}
+
+.navigation {
+height: 60px;
+width: 100%;
+display: flex;
+align-items: center;
+position: relative;
+padding: 0.5rem 0rem;
+background-color: rgb(15 23 42);
+color: black;
+box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+.hamburger {
+border: 0;
+height: 40px;
+width: 40px;
+padding: 0.5rem;
+padding-right: 2rem;
+border-radius: 50%;
+background-color: #283b8b;
+cursor: pointer;
+transition: background-color 0.2s ease-in-out;
+position: absolute;
+top: 50%;
+right: 10px;
+transform: translateY(-50%);
+display: none;
+}
+.hamburger:hover {
+background-color: #2642af;
+
+}
+
+@media screen and (max-width: 730px) {
+.hamburger {
+    display: block;
+}
+}
+@media screen and (max-width: 768px) {
+.navigation-menu ul {
+    display: none;
+}
+}
+
+
+/* nav */
+.nav-links {
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+}
+@media screen and (min-width: 730px) {
+    .nav-links {
+        height: auto;
+        display: flex ;
+    }
+}
