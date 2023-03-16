@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TIDIALLO/portfolio/static/css/main.289e70d6.css",
+    "main.js": "/TIDIALLO/portfolio/static/js/main.ac71eaca.js",
+    "static/media/diallo.jpg": "/TIDIALLO/portfolio/static/media/diallo.28ed83a67532c5ade0e0.jpg",
+    "static/media/tiz.png": "/TIDIALLO/portfolio/static/media/tiz.b7d2ff4b6658e59a0ed9.png",
+    "index.html": "/TIDIALLO/portfolio/index.html",
+    "main.289e70d6.css.map": "/TIDIALLO/portfolio/static/css/main.289e70d6.css.map",
+    "main.ac71eaca.js.map": "/TIDIALLO/portfolio/static/js/main.ac71eaca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.289e70d6.css",
+    "static/js/main.ac71eaca.js"
+  ]
+}
