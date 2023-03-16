@@ -1,6 +1,6 @@
 import Link from "./Link";
 import backImage from "../images/tiz.png";
-import "../styles/navbar.css"
+// import "../styles/navbar.css"
 import { useEffect, useState } from "react";
 function Navbar() {
     const [isNavExpanded, setIsNavExpanded] = useState(true);
@@ -28,13 +28,15 @@ function Navbar() {
 // flex flex-row  mx-auto px-auto py-auto
 // bg-slate-900 items-center 
 // justify-end gap-x-10 p-8 
-        <nav className="navigation  block gap-x-8 p-8 ml-auto py-8 top-0 expanded">
+        <nav className="flex flex-row  mx-auto px-auto py-auto
+        bg-slate-900 items-center 
+        justify-end border-b-2 border-slate-800  gap-x-8 p-8 ml-auto py-8 top-0 expanded">
             <img src={backImage} alt="tdd" className='w-9 h-9 rounded-full object-contain' />
             <div className="ml-0 mx-auto flex font-extrabold text-slate-400">
                 <p className="text-xl  mx-auto">Tidiane Diallo | Full Stack Developer</p>
             </div>
-            <button
-            className="hamburger"
+            {/* <button
+            // className="hamburger"
             onClick={() => {
                 // setIsNavExpanded(isNavExpanded);
                 return(
@@ -54,7 +56,7 @@ function Navbar() {
                 clipRule="evenodd"
             />
             </svg>
-            </button>
+            </button> */}
             <ul 
             className=' flex nav-links justify-end gap-5 px-8 mx-2'
             // className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu" } 
